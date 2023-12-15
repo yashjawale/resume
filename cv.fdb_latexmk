@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1702626094 "/Users/yash/Developer/resume/cv.tex" "cv.pdf" "cv" 1702626095 0
-  "/Users/yash/Developer/resume/cv.tex" 1702626093 10096 31b8d8224da77d97532fb47c582c3ce7 ""
+["pdflatex"] 1702630751 "/Users/yash/Developer/resume/cv.tex" "cv.pdf" "cv" 1702630752 0
+  "/Users/yash/Developer/resume/cv.tex" 1702630750 10267 5f8d622c56e2408873ba934ef0d8aa28 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -97,9 +97,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702618430 4714557 8611c324a8f3a36f53a15a94509c822c ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702618498 8218130 8f1bd322d30cf2d53c01e6e52f93b6a2 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv.aux" 1702626095 736 3d5623d65887a58dd57eb5fea234dfc9 "pdflatex"
-  "cv.out" 1702626095 673 7d5c6db0ab2705908254572409c8cd48 "pdflatex"
-  "cv.tex" 1702626093 10096 31b8d8224da77d97532fb47c582c3ce7 ""
+  "cv.aux" 1702630752 736 3d5623d65887a58dd57eb5fea234dfc9 "pdflatex"
+  "cv.out" 1702630752 673 7d5c6db0ab2705908254572409c8cd48 "pdflatex"
+  "cv.tex" 1702630750 10267 5f8d622c56e2408873ba934ef0d8aa28 ""
   (generated)
   "cv.aux"
   "cv.log"
