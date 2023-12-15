@@ -1,32 +1,9 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-
 %----------------------------------------------------------------------------------------
 %	DOCUMENT DEFINITION
 %----------------------------------------------------------------------------------------
 
 % article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,10pt]{article}
 
 %----------------------------------------------------------------------------------------
 %	FONT
@@ -81,15 +58,10 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\definecolor{linkcolour}{rgb}{0,0,0}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
 
 %for social icons
 \usepackage{fontawesome5}
@@ -142,12 +114,13 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Yash Jawale} \\[12.5pt]
+\small
+\href{https://yashjawale.github.io/}{\raisebox{-0.05\height}\faGlobe \ yashjawale.github.io} \ $|$ \ 
+\href{https://github.com/yashjawale}{\raisebox{-0.05\height}\faGithub\ yashjawale} \ $|$ \ 
+\href{https://linkedin.com/in/yashjawale}{\raisebox{-0.05\height}\faLinkedin\ yashjawale} \ $|$ \ 
+\href{mailto:yash25.j@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ yash25.j@gmail.com} \ $|$ \ 
+\href{tel:+919307918036}{\raisebox{-0.05\height}\faMobile \ +91 9307-9180-36} \\[8pt]
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -155,63 +128,133 @@
 %----------------------------------------------------------------------------------------
 
 %Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+% \section{Summary}
+% This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
 
-%Experience
-\section{Work Experience}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+
+Dr. D. Y. Patil Institute of Technology, Pimpri, Pune 411018 & \hfill 
+Sep 2021 - June 2025 \\ \vspace*{2mm}
+B.E. Computer Engineering \\ 
+
+Modern College of Arts, Science \& Commerce, Shivajinagar, Pune 411005 & \hfill 
+Aug 2019 - June 2021 \\ \vspace*{2mm}
+H.S.C. 93.83\% \\ 
+
+St. Francis De Sales High School, Nagar Road, Pune 411014 & \hfill 
+May 2019 \\ 
+S.S.C. 85.40\% \\
+
+\end{tabularx}
+
+% %Experience
+% \section{Work Experience}
+
+% \begin{jobshort}{Designation}{Jan 2021 - present}
+% long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
+% \end{jobshort}
 
 
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
+% \begin{joblong}{Designation}{Mar 2019 - Jan 2021}
+% \item long long line of blah blah that will wrap when the table fills the column width
+% \item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+% \end{joblong}
   
 %Projects
 \section{Projects}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+
+\multicolumn{2}{@{}X@{}}{
+    \begin{joblong}{ACES Website \normalfont{\textit{[NextJS, TailwindCSS, Sanity]}}}{Nov 2023}
+        \item Created new website for ACES DIT with NextJS.
+        \item Utilizes Sanity CMS for storing data \& dynamically displays it on appropriate pages.
+        \end{joblong}
+}  \\ 
+\\[-6pt]
+
+\multicolumn{2}{@{}X@{}}{
+    \begin{joblong}{ACES Snippets \normalfont{\textit{[AstroJS, TailwindCSS, GitHub Actions, Bash]}}}{Oct 2023}
+        \item Collection of DataStructures/Algorithms and other useful snippets paired with a showcase website created as part of Club\'s Open Source month celebration.
+        \item Created showcase website with Astro \& utilized GitHub Actions to translate user contributed code files to MD files for displaying on website.
+        \end{joblong}
+}  \\ 
+\\[-6pt]
+
+\multicolumn{2}{@{}X@{}}{
+    \begin{joblong}{NoteAttendance \normalfont{\textit{[ReactJS, PWA, NodeJS, Google Apps Script]}}}{Aug 2023}
+        \item A Progressive Web App (PWA) which helps teachers take attendance of class \& updates the Google Sheet accordingly.
+        \item Used Google App Scripts to create scheduled triggers to automatically export monthly reports to PDF.
+        \item Developed as an InHouse project for the college.
+        \end{joblong}
+}  \\ 
+\\[-6pt]
+
+\multicolumn{2}{@{}X@{}}{
+    \begin{joblong}{SlideSync \normalfont{\textit{[ReactJS, TailwindCSS, NodeJS, WebSockets]}}}{May 2023}
+        \item Allows users to control their presentation with mobile device without requiring Bluetooth. Having internet connection as the only requirement.
+        \item Created desktop client using ElectronJS, Mobile client with React \& PWA technology and a bridge server using NodeJS \& WebSockets.
+        \end{joblong}
+}  \\
+
 \end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Technical Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Languages} &  \normalsize{HTML, CSS, JavaScript, C++, Python, Java, Bash}\\
+\textbf{Databases} &  \normalsize{MySQL, SQLite, MongoDB, Firestore}\\
+\textbf{Web Dev}  &  \normalsize{ReactJS, NextJS, AstroJS, Flask, NodeJS, WordPress, WiX, Framer}\\
+\textbf{Administration} & \normalsize{Experience with multiple Linux Distributions, Google Workspace Admin}\\
 \end{tabularx}
 
-\vfill
-\center{\footnotesize Last updated: \today}
+%----------------------------------------------------------------------------------------
+%	POSITIONS
+%----------------------------------------------------------------------------------------
+\section{Postions of Responsibility}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+
+\textbf{Sr. Technical Head, Association of Computer Engineering Students} & \hfill 
+2023 \\ \vspace*{1mm}
+B.E. Computer Engineering \\ 
+
+\textbf{Web Dev Member Lead, Google Student Developer Clubs DIT} & \hfill 
+2023 \\ \vspace*{1mm}
+B.E. Computer Engineering \\ 
+
+\textbf{Jr. Technical Head, Association of Computer Engineering Students} & \hfill 
+2022 \\ 
+B.E. Computer Engineering \\ 
+
+\end{tabularx}
+
+\section{Certifications \& Achievements}
+
+% \begin{tabularx}{\linewidth}{@{}l X@{}}	
+
+% \textbf{Cisco Networking Basics} \\ \vspace*{1mm}
+% B.E. Computer Engineering \\
+
+% \textbf{Google Cloud Career Practioner} \\
+% B.E. Computer Engineering \\ 
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Cisco Networking Basics} &  \normalsize{Gained understanding about Computer Networks}\\
+\textbf{Hacktoberfest 10}  &  \normalsize{Conducted session for SE \& TE Students \& Maintained ACES Repositories }\\
+\textbf{Cloud 30 Days Challenge} &  \normalsize{Learned about various Cloud services \& Completed career practioner program}\\
+\textbf{Hacktoberfest 8 \& 9} & \normalsize{Contributed manifests to Microsoft Winget Repository}
+\end{tabularx}
+
+% \vspace*{-0.8mm}
+% \center{\footnotesize Last updated: \today}
 
 \end{document}
